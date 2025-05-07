@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Rules.css"?>
+<books>
+  <heading>Welcome to Geeksforgeeks</heading>
+  
+  <book category="Web Development">
+    <title>title:Web Programming</title>
+    <author>author:Chris Bates</author>
+    <publisher>publisher:Wiley</publisher>
+    <year>year:2021</year>
+    <price>price:39.99</price>
+    <description>A comprehensive guide to modern web development techniques.</description>
+  </book>
+  
+  <book category="Data Science">
+    <title>title:Python for Data Analysis</title>
+    <author>author:Wes McKinney</author>
+    <publisher>publisher:O'Reilly Media</publisher>
+    <year>year:2022</year>
+    <price>49.99</price>
+    <description>Essential guide for manipulating, processing, cleaning, and analyzing datasets in Python.</description>
+  </book>
+  
+  <book category="Algorithms">
+    <title>title:Introduction to Algorithms</title>
+    <author>author:Thomas H. Cormen</author>
+    <author>Charles E. Leiserson</author>
+    <author>Ronald L. Rivest</author>
+    <author>Clifford Stein</author>
+    <publisher>publisher:MIT Press</publisher>
+    <year>year:2019</year>
+    <price>85.00</price>
+    <description>Comprehensive guide to various algorithms and their analysis.</description>
+  </book>
+  
+  <book category="Database">
+    <title>title:Database Systems: Design, Implementation, and Management</title>
+    <author>author:Carlos Coronel</author>
+    <author>Steven Morris</author>
+    <publisher>publisher:Cengage Learning</publisher>
+    <year>year:2023</year>
+    <price>59.99</price>
+    <description>Covers database design concepts and implementation strategies.</description>
+  </book>
+  
+  <book category="Cybersecurity">
+    <title>title:Hacking: The Art of Exploitation</title>
+    <author>author:Jon Erickson</author>
+    <publisher>publisher:No Starch Press</publisher>
+    <year>year:2020</year>
+    <price>44.95</price>
+    <description>Deep dive into computer security from programming to network communications.</description>
+  </book>
+</books>

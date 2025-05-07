@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recipe project</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+#navlist{
+    list-style: none;
+    font-size: 1.5rem;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+
+}
+.nav-container{
+    width: 100vw;
+    background-color:cadetblue;
+    min-height: 80px;
+    padding: 15px;
+    text-decoration: none;
+
+}
+#navlogo{
+    font-size:2.8rem;
+    color: blanchedalmond ;
+}
+#navitems{
+    display:flex;
+    gap: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(252, 255, 188);
+}
+
+.footerbox{
+    width: 100vw;
+    height: 20px;
+    background-color: cadetblue;
+
+    
+}
+</style>
+<body>
+<div class="container">
+    <div class="nav-container">
+        <nav>
+            <ul id="navlist">
+                <li><p id="navlogo">Sarvesh da dhaba</p></li>
+                <li>
+                    <div id="navitems">
+                        <a href="">Home</a>
+                        <a href="">Contact</a>
+                        <a href="">About</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+<div class="footerbox">   
+     <footer>copyright &copy sarvesh da dhaba</footer>
+</div>
+</div>
+</body>
+</html>

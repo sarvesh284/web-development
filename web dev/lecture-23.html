@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <style>
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width:100wh;
+    height:100vh;
+    background-color:bisque;
+    border: 2px solid black;
+}
+.box{
+    height: 25%;
+    width: 25%;
+    background-color: #d72e2e;
+    border:2px solid black;
+    border-radius: 10px;
+    position: relative;
+    animation-name:moveright;
+    animation-duration:5s;
+    -o-animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+
+    animation-fill-mode:none;/*property used to decide animation afterlast frame*/
+
+}
+@keyframes moveright{
+    from{
+        top:0;
+        left:0;
+}
+    to{
+        top: 0;
+        left:500px;
+
+}
+}
+    </style>
+    <body>
+    
+<!-- Animation in css 
+ keyframe rule>>
+
+ @keyframe example{
+ from{background-color:red;}
+ to{background-color:yellow;}
+ }
+ 
+ to apply the animation
+ div{
+ animation-name:example;
+ animaton-duration:4s} -->
+ <div class="container">
+    <div class="box"></div>
+
+ </div>
+
+
+
+
+
+
+
+</body></html>

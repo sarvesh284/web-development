@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- 2d transforms -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2d transform</title>
+</head>
+<style>
+    .box{
+        height: 400px;
+        width: 400px;
+        background-color:cadetblue;
+        border: 2px solid black;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: auto;
+        transition: all 3s linear 0s;
+
+    }
+.box:hover{
+        /* transform:rotate(90deg); rotation */
+        /* transform:scale(2);  changing size*/
+        /* transform:skew(45deg); tilting */
+        /* transform: translate(100px,100px); to move in direction */
+
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+    p{
+        font-size:40px;
+    }
+</style>
+<body>
+   <div class="container">
+    <div class="box"><p>this is box</p></div>
+   </div>
+</body>
+</html>

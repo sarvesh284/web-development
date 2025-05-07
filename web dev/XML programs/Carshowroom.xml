@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CarShowroom>
+    <ShowroomDetails>
+        <Name>Royal Motors</Name>
+        <Address>
+            <Street>42 MG Road</Street>
+            <City>Bangalore</City>
+            <State>Karnataka</State>
+            <PinCode>560001</PinCode>
+        </Address>
+        <ContactInfo>
+            <Phone>080-2234-5678</Phone>
+            <Email>contact@royalmotors.in</Email>
+        </ContactInfo>
+    </ShowroomDetails>
+    
+    <Staff>
+        <Employee id="E001">
+            <Name>Rajesh Kumar</Name>
+            <Position>Sales Manager</Position>
+            <Phone>9876543210</Phone>
+        </Employee>
+        <Employee id="E002">
+            <Name>Priya Sharma</Name>
+            <Position>Sales Executive</Position>
+            <Phone>9876543211</Phone>
+        </Employee>
+    </Staff>
+    
+    <Inventory>
+        <Vehicle id="V001">
+            <Make>Tata</Make>
+            <Model>Nexon</Model>
+            <Year>2024</Year>
+            <Variant>XZ+</Variant>
+            <Color>Flame Red</Color>
+            <Features>Sunroof, 360 Camera, Connected Car Tech</Features>
+            <Engine>1.2L Turbocharged Petrol</Engine>
+            <Price currency="INR">1250000</Price>
+            <Status>Available</Status>
+        </Vehicle>
+        
+        <Vehicle id="V002">
+            <Make>Mahindra</Make>
+            <Model>XUV700</Model>
+            <Year>2024</Year>
+            <Variant>AX7 L</Variant>
+            <Color>Electric Blue</Color>
+            <Features>ADAS, Panoramic Sunroof, Alexa Built-in</Features>
+            <Engine>2.0L mHawk Diesel</Engine>
+            <Price currency="INR">2350000</Price>
+            <Status>Available</Status>
+        </Vehicle>
+        
+        <Vehicle id="V003">
+            <Make>Hyundai</Make>
+            <Model>Creta</Model>
+            <Year>2025</Year>
+            <Variant>SX(O)</Variant>
+            <Color>Galaxy Blue</Color>
+            <Features>Bose Sound System, Level 2 ADAS</Features>
+            <Engine>1.5L Turbo GDi Petrol</Engine>
+            <Price currency="INR">1850000</Price>
+            <Status>On Display</Status>
+        </Vehicle>
+    </Inventory>
+    
+    <ServiceDepartment>
+        <Service id="S001">
+            <Name>Regular Service</Name>
+            <Price currency="INR">4500</Price>
+        </Service>
+        <Service id="S002">
+            <Name>Major Service</Name>
+            <Price currency="INR">8500</Price>
+        </Service>
+    </ServiceDepartment>
+    
+    <SalesRecords>
+        <Sale id="T001">
+            <Date>2025-04-01</Date>
+            <Customer>Anand Verma</Customer>
+            <Vehicle>Tata Harrier, Dark Edition</Vehicle>
+            <Price currency="INR">2450000</Price>
+            <SalesPerson>E002</SalesPerson>
+        </Sale>
+    </SalesRecords>
+</CarShowroom>xfdgf1`	
